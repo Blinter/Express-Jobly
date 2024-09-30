@@ -157,7 +157,3 @@ Add a table for technologies which is a many to many with jobs (a job can requir
 ### **Add Technologies for Users**
 
 Make the technologies table a many to many with users as well and create an endpoint that matches users with jobs where the technologies are the same.
-
-## **Solution**
-
-[View our solution here](https://curric.springboard.com/software-engineering-career-track/default/exercises/express-jobly/solution/index.html)
