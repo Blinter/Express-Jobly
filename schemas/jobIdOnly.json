@@ -17,7 +17,7 @@
           "minimum": 0
         }
       ],
-      "description": "The ID of a job. Must be a non-negative decimal greater than 0."
+      "description": "The ID of a job. Must be a non-negative number."
     }
   },
   "required": ["id"],

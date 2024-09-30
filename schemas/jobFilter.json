@@ -25,7 +25,7 @@
           "minimum": 0
         }
       ],
-      "description": "The salary minimum of a job being searched. Must be a non-negative decimal greater than 0."
+      "description": "The salary minimum of a job being searched. Must be a non-negative number."
     },
     "hasEquity": { 
       "oneOf": [

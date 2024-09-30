@@ -8,14 +8,14 @@
     "title": {
       "type": "string",
       "minLength": 1,
-      "description": "The title of the new job. Required."
+      "description": "The title of the new job (Required)"
     },
     "companyHandle": {
       "type": "string",
       "minLength": 1,
       "maxLength": 25,
       "pattern": "^[a-z0-9]+$",
-      "description": "The company handle to associate the new Job with. Required."
+      "description": "The company handle to associate the new Job (Required)"
     
     },
     "salary": {
@@ -30,7 +30,7 @@
           "minimum": 0
         }
       ],
-      "description": "The salary posted by a job. Must be a non-negative decimal greater than 0."
+      "description": "The salary posted by a job. Must be a non-negative number."
     },
     "equity": {
       "oneOf": [

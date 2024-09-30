@@ -20,7 +20,7 @@
           "type": "null"
         }
       ],
-      "description": "The minimum number of employees. Must be a non-negative integer greater than 0."
+      "description": "The minimum number of employees. Must be a non-negative integer."
     },
     "maxEmployees": {
       "oneOf": [
@@ -37,7 +37,7 @@
           "type": "null"
         }
       ],
-      "description": "The maximum number of employees. Must be a non-negative integer greater than 0."
+      "description": "The maximum number of employees. Must be a non-negative integer."
     },
     "nameLike": {
       "type": "string",
