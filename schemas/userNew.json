@@ -41,8 +41,16 @@
       "description": "E-Mail for the user being registered"
     },
     "isAdmin": {
-      "type": "boolean",
-      "enum": [true, false],
+      "oneOf": [
+        {
+          "type": "boolean",
+          "enum": [true, false]
+        },
+        {
+          "type": "string",
+          "enum": ["true", "false"]
+        }
+      ],
       "description": "Administrator flag for the user being registered"
     }
   },
