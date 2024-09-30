@@ -13,11 +13,11 @@ To run the tests:
     jest -i
     jest -i --coverage
 
-## Notable features:
+## Notable features
  - JSON Validation Schema updated to version 2020-12
  - Improved validation methods for schema's
  - Thoroughly documented project, completely reworked
  - 191 Tests with high % coverage
  ---
 
-[View Instructions for Project](README.md)
+[View Instructions for Project](Instructions.md)
