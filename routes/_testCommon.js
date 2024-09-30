@@ -20,16 +20,16 @@ const Company = require("../models/company");
 const Job = require("../models/job");
 const { createToken } = require("../helpers/tokens");
 
+// create testJobId's and getTestJobIds() for testing job applications
 const testJobIds = [];
-
 const getTestJobIds = () => [...testJobIds];
 
 /*
  * Setup function to initialize the database state before all tests are run.
- * It clears out existing entries in the "jobs", "users", and "companies" tables
- * and resets identity sequences to ensure predictable auto-increment values.
- * After truncating tables, it seeds the database with multiple example companies,
- * users, and jobs for testing purposes.
+ * It clears out existing entries in the "applications", "jobs", "users", and 
+ * "companies" tables * and resets identity sequences to ensure predictable 
+ * auto-increment values. After truncating tables, it seeds the database with 
+ * multiple example companies, users, and jobs for testing purposes.
  */
 async function commonBeforeAll() {
   await db.query('TRUNCATE TABLE applications RESTART IDENTITY CASCADE');

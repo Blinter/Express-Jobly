@@ -15,8 +15,8 @@ const db = require("../db.js");
 const { BCRYPT_WORK_FACTOR } = require("../config");
 const { createToken } = require("../helpers/tokens");
 
+// create testJobId's and getTestJobIds() for testing job applications
 const testJobIds = [];
-
 const getTestJobIds = () => [...testJobIds];
 
 /**
